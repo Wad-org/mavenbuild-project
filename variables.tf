@@ -11,7 +11,7 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "devtf-key"
+  default = "acetf-key"
 }
 
 variable "tomcat_ami_id" {
@@ -23,7 +23,7 @@ variable "tomcat_instance_type" {
 }
 
 variable "tomcat_key" {
-  default = "devtf-key"
+  default = "acetf-key"
 }
 
 # variable "bucket" {
